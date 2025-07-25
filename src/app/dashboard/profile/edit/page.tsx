@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { FiUpload, FiX } from 'react-icons/fi';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { FiUser } from "react-icons/fi";
+
 
 export default function EditProfilePage() {
   const router = useRouter();
